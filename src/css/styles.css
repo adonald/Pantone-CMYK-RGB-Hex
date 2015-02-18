@@ -1,0 +1,21 @@
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+    list-style-type: none;
+}
+.pantone-swatch {
+    width: 200px;
+    height: 150px;
+    margin: 5px;
+    padding: 10px;
+}
+/* make swatches full width for mobile screens */
+@media screen and (max-width: 450px) {
+    .pantone-swatch {
+        width: 100%;
+        margin: 5px 0;
+    }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Pantone-CMYK-RGB-Hex",
+  "version": "1.1.0",
+  "author": "Alex Donald",
+  "description": "Conversion table for Pantone PMS to CMYK, RGB, and Hex values",
+  "keywords": [
+    "Pantone",
+    "RGB",
+    "CMYK",
+    "Hex",
+    "Colour",
+    "Color",
+    "converter"
+  ],
+  "homepage": "https://www.adonald.co.uk/projects/pantoneconverter/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adonald/Pantone-CMYK-RGB-Hex.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-cssmin": "^0.12.1",
+    "grunt-contrib-concat": "^0.5.0"
+  }
+}
