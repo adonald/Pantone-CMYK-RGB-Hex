@@ -6,7 +6,7 @@ About
 
 Conversion table for Pantone PMS to CMYK, RGB, and Hex values.
 
-The index.html file is completely self contained. Just drop it onto a server and it will work, all the CSS is either in the head, or inline. I know inline css is "A Bad Thing", but it was far simpler to add the bottom border colour inline for each colour.
+The index.html file is completely self contained. Just drop it onto a server and it will work, all the CSS is either in the styles.css file, or inline. I know inline css is "A Bad Thing", but it was far simpler to add the bottom border colour inline for each colour.
 
 The .json file is an array of all the Pantone colours, including the PMS code, CMYK values, RGB values, and Hexadecimal values.
 
@@ -23,7 +23,5 @@ Set up a php script that only outputs results of a search. This would use "dynam
 
 Acknowledgments
 ---------------
-
-I used the excellent [PocketGrid](https://github.com/arnaudleray/pocketgrid "PocketGrid") CSS framework to make the swatches flow nicely.
 
 I used the Pantone to CMYK reference at [Excalibur Creations](http://www.excaliburcreations.com/pantone.html "Excalibur Creations Pantone to CMYK"), then calculated the RGB, and therefore Hex, values using the equations at [Rapid Tables](http://www.rapidtables.com/convert/color/cmyk-to-rgb.htm "Rapid Tables CMYK to RGB")
