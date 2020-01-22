@@ -1,3 +1,13 @@
+.pantone-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: space-around;
+    
+}
+
 ul, li {
     margin: 0;
     padding: 0;
