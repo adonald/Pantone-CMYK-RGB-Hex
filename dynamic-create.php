@@ -17,6 +17,7 @@ $pantone = json_decode($pantone_json,true);
 <body>
 <div class="header">
     <h1>Pantone Converter</h1>
+    <p>See <a href="pantone_CMYK_RGB_Hex.json">Pantone Conversion JSON file</a> for raw data</p>
 </div>
 
 <div class="pantone-group">
